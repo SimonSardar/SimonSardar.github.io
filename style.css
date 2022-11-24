@@ -1,0 +1,49 @@
+body {
+    animation: 0.5s ease-out 0.5s 1 FadeIn;
+    -moz-animation: 0.5s ease-out 0.5s 1 FadeIn;
+    -o-animation: 0.5s ease-out 0.5s 1 FadeIn;
+    -webkit-animation: 0.5s ease-out 0.5s 1 FadeIn;
+}
+
+* {
+    user-select: none;
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.navbar {
+    height: 75px;
+}
+
+.title {
+    font-size: 60px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.card {
+    transition: ease 0.5s;
+    margin: 5px;
+}
+
+.price {
+    text-align: center;
+    background-color: #212529;
+    color: white;
+    font-size: 30px;
+    border: 2px rgb(82, 82, 82) solid;
+    border-radius: 7px;
+}
